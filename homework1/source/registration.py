@@ -16,7 +16,7 @@ import sift
 import utils
 
 
-def stitch_images(image1, image2, H, save_path, alpha=0.3):
+def stitch_images(image1, image2, H, save_path, alpha=0.2):
     """ 图像拼接并叠加热力图显示对准效果 """
 
     # 确保图像为三通道 (兼容灰度图)
