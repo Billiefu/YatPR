@@ -1,3 +1,10 @@
+"""
+@module registration
+@function 基于 sift 及 ransac 完成图像配准任务
+@author 傅祉珏
+@date 2025年3月29日
+"""
+
 import copy
 
 import cv2 as cv
