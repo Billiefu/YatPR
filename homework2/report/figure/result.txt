@@ -1,0 +1,4 @@
+PCA + KNN Accuracy: 93.33%
+LDA + KNN Accuracy: 90.00%
+PCA + SVM Accuracy: 90.00%
+LDA + SVM Accuracy: 93.33%
