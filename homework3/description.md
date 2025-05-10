@@ -1,4 +1,4 @@
-## Homework3  基于 PCA/LDA 和 KNN 的人脸识别
+## Homework3  半监督图像分类
 
 ### 实验目的
 
