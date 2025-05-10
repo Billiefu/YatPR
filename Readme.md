@@ -8,6 +8,7 @@
 
 * Homework1 - 全景图拼接
 * Homework2 - 基于 PCA/LDA 和 KNN 的人脸识别
+* Homework3 - 半监督图像分类
 
 更多实验内容将基于课程进度给出其设计及实现
 
