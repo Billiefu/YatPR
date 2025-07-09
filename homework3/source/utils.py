@@ -1,8 +1,17 @@
 """
-@module utils
-@function 存放项目通用工具函数，包括随机种子设置、可视化等
-@author 傅祉珏
-@date 2025年5月23日
+Copyright (C) 2025 傅祉珏
+
+:module: utils
+:function: 存放项目通用工具函数，包括随机种子设置、可视化等
+:author: 傅祉珏
+:date: 2025-05-23
+:license: AGPLv3 + 附加限制条款（禁止商用）
+
+本代码依据 GNU Affero 通用公共许可证 v3 (AGPLv3) 授权，附加条款见项目根目录 ADDITIONAL_TERMS.md。
+- 禁止商业用途（包括但不限于销售、集成至商业产品）
+- 学术使用需在代码注释或文档中明确标注来源
+
+AGPLv3 完整文本见 LICENSE 文件或 <https://www.gnu.org/licenses/agpl-3.0.html>
 """
 
 import random
