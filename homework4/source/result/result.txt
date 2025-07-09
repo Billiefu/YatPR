@@ -1,0 +1,98 @@
+Label mapping for final_result:
+Class 0: Distinction
+Class 1: Fail
+Class 2: Pass
+Class 3: Withdrawn
+
+Size of Training Set: 20674
+Size of Testing Set: 5169
+
+True Labels
+Class 0 has 605 samples
+Class 1 has 1154 samples
+Class 2 has 2472 samples
+Class 3 has 938 samples
+
+========== Logistic Regression ==========
+Train Acc: 70.86%, Train Loss: 0.6464
+Test Acc: 71.02%, Test Loss: 0.6484
+Training time: 10.4298 seconds
+Class Distinction has 349 samples
+Class Fail has 915 samples
+Class Pass has 2943 samples
+Class Withdrawn has 962 samples
+
+========== SVM ==========
+Train Acc: 70.47%, Train Loss: 0.7768
+Test Acc: 70.61%, Test Loss: 0.7814
+Training time: 12.1204 seconds
+Class Distinction has 199 samples
+Class Fail has 765 samples
+Class Pass has 3147 samples
+Class Withdrawn has 1058 samples
+
+========== Decision Tree ==========
+Train Acc: 73.22%, Train Loss: 1.8010
+Test Acc: 70.40%, Test Loss: 1.8009
+Training time: 170.8287 seconds
+Class Distinction has 430 samples
+Class Fail has 831 samples
+Class Pass has 2937 samples
+Class Withdrawn has 971 samples
+
+========== KNN ==========
+Train Acc: 75.68%, Train Loss: 0.2432
+Test Acc: 65.14%, Test Loss: 0.3486
+Training time: 45.2888 seconds
+Class Distinction has 393 samples
+Class Fail has 823 samples
+Class Pass has 3000 samples
+Class Withdrawn has 953 samples
+
+========== K-means ==========
+Train Acc: 47.70%, Train Loss: 0.5230
+Test Acc: 48.50%, Test Loss: 0.5150
+Training time: 0.2507 seconds
+Class Distinction has 1460 samples
+Class Fail has 670 samples
+Class Pass has 1960 samples
+Class Withdrawn has 1079 samples
+
+========== MLP ==========
+Train Acc: 76.07%, Train Loss: 0.5270
+Test Acc: 72.86%, Test Loss: 0.5850
+Training time: 13.0810 seconds
+Class Distinction has 407 samples
+Class Fail has 974 samples
+Class Pass has 2796 samples
+Class Withdrawn has 992 samples
+
+========== Ensemble - Logistic Regression ==========
+Train Acc: 78.70%, Train Loss: 0.5065
+Test Acc: 71.29%, Test Loss: 0.6320
+Training time: 54.5063 seconds
+
+========== Ensemble - SVM ==========
+Train Acc: 78.24%, Train Loss: 0.5235
+Test Acc: 70.21%, Test Loss: 0.7159
+Training time: 59.6794 seconds
+
+========== Ensemble - Decision Tree ==========
+Train Acc: 79.64%, Train Loss: 1.8010
+Test Acc: 69.70%, Test Loss: 1.8009
+Training time: 554.8173 seconds
+
+========== Ensemble - KNN ==========
+Train Acc: 82.15%, Train Loss: 0.1785
+Test Acc: 68.83%, Test Loss: 0.3117
+Training time: 113.9026 seconds
+
+========== Ensemble - Kmeans ==========
+Train Acc: 75.07%, Train Loss: 0.2493
+Test Acc: 71.75%, Test Loss: 0.2825
+Training time: 46.2810 seconds
+
+========== Ensemble - MLP ==========
+Train Acc: 79.29%, Train Loss: 0.4834
+Test Acc: 70.52%, Test Loss: 0.6251
+Training time: 59.4863 seconds
