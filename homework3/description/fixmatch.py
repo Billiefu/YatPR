@@ -1,18 +1,13 @@
 # import needed library
 import os
-import logging
 import random
-import warnings
 
 import numpy as np
 import torch
-import torch.nn as nn
 import torch.nn.parallel
 import torch.backends.cudnn as cudnn
-import torch.distributed as dist
-import torch.multiprocessing as mp
 
-from utils import net_builder, get_logger, count_parameters, over_write_args_from_file
+from homework4.source.utils import net_builder, get_logger, count_parameters, over_write_args_from_file
 from train_utils import TBLog, get_optimizer, get_cosine_schedule_with_warmup
 from models.fixmatch.fixmatch import FixMatch
 from datasets.ssl_dataset import SSL_Dataset, ImageNetLoader
