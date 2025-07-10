@@ -1,7 +1,7 @@
 %!TEX program = xelatex
 %% Copyright (C) 2025 傅祉珏
 %% 
-%% 此文件是《全景图拼接实验报告》的LaTeX源码，依据AGPLv3许可证发布。
+%% 此文件是《Homework2 基于PCA/LDA和KNN的人脸识别》的LaTeX源码，依据AGPLv3许可证发布。
 %% 完整许可证文本见项目根目录LICENSE文件，附加限制条款见ADDITIONAL_TERMS.md。
 %% 
 %% 禁止商业用途，学术使用需保留本声明。
@@ -13,6 +13,7 @@
 
 \documentclass[a4paper, utf8]{ctexart}
 \usepackage[fontset=Fandol]{ctex}
+\usepackage{draftwatermark}
 \usepackage{anyfontsize}
 \usepackage{indentfirst}
 \usepackage{subcaption}
@@ -50,6 +51,12 @@
 \author{\fangsong 21307210 \ \  傅祉珏}
 \date{\fangsong 中山大学计算机学院 \ \  广东广州 \ \  510006}
 
+% 版权信息水印
+\SetWatermarkText{Copyright\ \copyright\ 2025\ 傅祉珏}
+\SetWatermarkScale{0.4}
+\SetWatermarkAngle{45}
+\SetWatermarkColor[gray]{0.8}
+
 \begin{document}
 
 	\begin{titlepage}
@@ -65,13 +72,13 @@
 		
 		\vspace{0.025\textheight}
 		\rule{0.83\textwidth}{0.4pt}
-		\vspace{0.025\textheight}
+		\vspace{0.05\textheight} 
 		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width=8cm, height=8cm]{./figure/计院院徽.jpg}
 		\end{figure}
 		
-		\vspace{0.035\textheight} 
+		\vspace{0.04\textheight} 
 		{\Large 课程编号：\textsc{DCS299}}
 		
 		\vspace{0.025\textheight} 
@@ -86,11 +93,9 @@
 		\vspace{0.025\textheight} 
 		{\Large 项目截止时间：\textsc{2025年4月27日}}
 		
-		\vspace{0.025\textheight} 
-		{\small \kaishu 版权所有\ \copyright\ 2025\ 傅祉珏。保留所有权利。\\
-		本作品采用 AGPLv3 许可证授权，附加条款见项目仓库。}
+		\vspace{0.05\textheight} 
+		\vfill
 		
-		\vspace{0.025\textheight} 
 		{\large \today}
 		\vspace{0.1\textheight}
 		\rule{\textwidth}{1pt}
